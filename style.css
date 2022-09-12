@@ -1,0 +1,76 @@
+:root {
+    --main-font: 'Qwitcher Grypen', cursive;
+  }
+  body{
+    margin: 0;
+    background-color: black
+  }
+
+img{
+    width: auto;
+    height: 120vh;
+}
+.container{
+    display: flex;
+    margin: 0 8vw 0 8vw;
+    
+    
+}
+
+form{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 2vh;
+    column-gap: 3.5vw;
+   
+   
+}
+
+.formContainer{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0;
+    background-color: white;
+}
+
+
+.signUpHeader{
+    font-family:var(--main-font);
+    font-size: large;
+    background-color:whitesmoke;
+    padding: 2vw;
+    margin-top: 0;
+    padding-top: 14vh;
+}
+
+.signUpcontent{
+    padding: 2vw;
+    padding-bottom: 2vh;;
+}
+
+.signUpFooter{
+    padding: 2vw;
+    padding-top: 2vh;
+    background-color:whitesmoke;
+    margin-bottom: 0px;
+    flex: 1;
+}
+
+button{
+    background-color: rgb(39, 90, 39);
+    border-radius: 10px;
+    padding: 10px 20px;
+   
+}
+
+button:hover{
+    background-color: #45a049;;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    border-radius: 7px;
+}
